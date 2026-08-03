@@ -1,0 +1,110 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "439e0c4c-4994-4b33-83c3-6154d8f8a615")
+	(paper "A4")
+	(title_block
+		(title "Open Source Aktor / Sensor Prints fürs Smarthome")
+		(rev "0.1")
+	)
+	(lib_symbols)
+	(sheet
+		(at 19.05 19.05)
+		(size 58.42 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0e1ea384-a5f6-4c8e-812c-6588513ee3a3")
+		(property "Sheetname" "I2C Expander"
+			(at 19.05 18.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "I2C Expander.kicad_sch"
+			(at 19.05 37.4146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RelaisExpanderPrint"
+				(path "/439e0c4c-4994-4b33-83c3-6154d8f8a615"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 19.05)
+		(size 58.42 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "653100a6-2dad-43cc-9dda-c368b0de3036")
+		(property "Sheetname" "Relais"
+			(at 92.71 18.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Relais.kicad_sch"
+			(at 92.71 37.4146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RelaisExpanderPrint"
+				(path "/439e0c4c-4994-4b33-83c3-6154d8f8a615"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
