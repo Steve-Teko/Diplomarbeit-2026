@@ -109,8 +109,8 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 0 2.05 90)
-			(layer "F.Fab")
+			(at 0 3 180)
+			(layer "F.SilkS")
 			(uuid "af6b810e-5cbb-426c-81cf-63eaab0ce16d")
 			(effects
 				(font
@@ -12038,8 +12038,8 @@
 			)
 		)
 		(property "Value" "SDA"
-			(at 0 2.05 0)
-			(layer "F.Fab")
+			(at -0.518177 2.334955 0)
+			(layer "F.SilkS")
 			(uuid "cbf9a077-abfd-4c3b-9dac-08fb7e5ec833")
 			(effects
 				(font
@@ -12294,7 +12294,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R16"
-			(at -2.42 0 0)
+			(at 0.185086 -1.664222 0)
 			(layer "F.SilkS")
 			(uuid "fb18c3f8-cd5b-49b2-943d-399a4b0567b5")
 			(effects
@@ -14314,7 +14314,7 @@
 		)
 		(property "Value" "5V"
 			(at 0 2.05 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "2f17b87a-2c4a-4c52-86a5-eb1a943b9549")
 			(effects
 				(font
@@ -14422,8 +14422,8 @@
 			)
 		)
 		(property "Value" "SCK"
-			(at 0 2.05 0)
-			(layer "F.Fab")
+			(at 0.605933 2.380469 0)
+			(layer "F.SilkS")
 			(uuid "07b75c4c-b0e9-4051-a2a9-6700277f9cbb")
 			(effects
 				(font
@@ -14520,7 +14520,7 @@
 		(descr "Terminal Block Phoenix MPT-0,5-2-2.54, 2 pins, pitch 2.54mm, size 5.54x6.2mm, drill diameter 1.1mm, pad diameter 2.2mm, http://www.mouser.com/ds/2/324/ItemDetail_1725656-920552.pdf")
 		(tags "THT Terminal Block Phoenix MPT-0,5-2-2.54 pitch 2.54mm size 5.54x6.2mm drill 1.1mm pad 2.2mm")
 		(property "Reference" "J26"
-			(at 1.27 -4.22 90)
+			(at 5.191923 1.758692 180)
 			(layer "F.SilkS")
 			(uuid "d2bc4df4-1d8a-467b-8133-98a2e3dd2911")
 			(effects
@@ -15300,7 +15300,7 @@
 		(descr "18-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U4"
-			(at -1.88 4.54 180)
+			(at -1.685293 -1.131401 180)
 			(layer "F.SilkS")
 			(uuid "ff10ebe1-cf33-41f8-a5c7-932cae4e3fdc")
 			(effects
@@ -22957,8 +22957,8 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 0 2.05 0)
-			(layer "F.Fab")
+			(at 0.261226 2.660894 0)
+			(layer "F.SilkS")
 			(uuid "694b6dad-e724-40b0-90ba-64e2e2da6ab7")
 			(effects
 				(font
@@ -23055,23 +23055,23 @@
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP5"
-			(at 0 -1.998 0)
+			(at -2.179907 -1.308077 0)
 			(layer "F.SilkS")
 			(uuid "680d60ce-6215-4720-9a49-65b626ace8ed")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "External Supply"
-			(at 0 2.05 0)
-			(layer "F.Fab")
+			(at 1.729809 1.83189 0)
+			(layer "F.SilkS")
 			(uuid "77dc8aaf-a922-4e77-b98f-c65d1ba0db64")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.6 0.6)
 					(thickness 0.15)
 				)
 			)
@@ -23136,12 +23136,12 @@
 			(uuid "5aa0ebce-0bd9-41b2-9bb1-556c4430ac3d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
+			(at -2.576213 -1.38429 0)
 			(layer "F.Fab")
 			(uuid "73b1768a-8c87-4d36-a10a-d51d30dda2c3")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -27392,7 +27392,7 @@
 			)
 		)
 		(property "Value" "5V 3A Input"
-			(at -7.73 1.8075 0)
+			(at -6.495914 1.785597 0)
 			(layer "F.SilkS")
 			(uuid "9e778e20-7175-48fe-9101-89ce7a847d16")
 			(effects
@@ -28970,6 +28970,32 @@
 		(layer "Edge.Cuts")
 		(uuid "a63281e3-8f6d-4036-9da8-ebdf0e505ccb")
 	)
+	(gr_text "SCK"
+		(at 82.003548 84.370078 90)
+		(layer "F.SilkS")
+		(uuid "3c5b9a8c-eb99-402a-b745-654445f7a37c")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.175)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SCK"
+		(at 82.069396 89.242818 90)
+		(layer "F.SilkS")
+		(uuid "08d09c18-0426-46e5-a26e-65711a9ddb60")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.175)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "GND\nAX\n3.3V"
 		(at 171.5 89 0)
 		(layer "F.SilkS")
@@ -28982,7 +29008,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "I2C Address 0x20-0x27 \n0x20 = A0-A2 000:\nA0 = Bit 1 0x21 = A0-A2 001\nA1 = Bit 2 0x22 = A0-A2 010\nA2 = Bit 3 0x23 = A0-A2 011  SCK  	 SDA\n"
+	(gr_text "I2C Address 0x20-0x27 \n0x20 = A0-A2 000:\nA0 = Bit 1 0x21 = A0-A2 001\nA1 = Bit 2 0x22 = A0-A2 010\nA2 = Bit 3 0x23 = A0-A2 011\n"
 		(at 128 88 0)
 		(layer "F.SilkS")
 		(uuid "47d2315e-a006-4689-a241-47a89560f050")
@@ -28996,7 +29022,7 @@
 		)
 	)
 	(gr_text "5V Power LED"
-		(at 182.5 81.5 0)
+		(at 181.82777 81.618526 0)
 		(layer "F.SilkS")
 		(uuid "ba6d1442-78eb-4fd5-b660-c2947b58185d")
 		(effects
@@ -29203,8 +29229,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "+       -"
-		(at 172.5 83 0)
+	(gr_text "+  -"
+		(at 175.134406 83.626475 0)
 		(layer "F.SilkS")
 		(uuid "6920d60b-c2b8-49a9-b4e8-e0ef3286dfb1")
 		(effects
@@ -31409,7 +31435,7 @@
 		(uuid "3f237b52-e5e4-48a9-9a14-8a7fab168fec")
 	)
 	(via
-		(at 194.5 89)
+		(at 193.669501 88.665834)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
