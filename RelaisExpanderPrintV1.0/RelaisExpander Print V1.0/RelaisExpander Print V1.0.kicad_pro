@@ -542,7 +542,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "/home/steve/Downloads/RelaisPrintV01",
+      "plot": "../RelaisPrintV01GerberFiles/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
