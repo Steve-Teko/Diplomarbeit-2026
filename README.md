@@ -44,7 +44,20 @@ The PCBs have not been certified or safety-tested by any official inspection bod
 
 
 
-What to expect:
+**What to expect:**
+You will be able to order a the Following PCB from your favorite PCB Manufacturer, the Files and a basic Enclosure designed in FreeCAD is included in the Folders
+
+**Hauptprint aka the Brain**
+It's purpose is being able to be integrated in to your existing SmartHome while offering a wide range off preconfigured In/Output.
+The ESP32 C6 Wroom1 supports Thread/Zigbee, Wi-Fi 6 (2.4gHz only!), Bluetooth 5.0, UART, I2C and I2S.
+
 ![alt text](https://github.com/Steve-Teko/Diplomarbeit-2026/blob/main/HauptprintV1/HauptprintV1/HauptprintV1.png)
+
+
+**The RelaisExpanderPrint aka the Switchmaster**
+The RelaisExpanderPrint was designed with compatibility and versatility in mind. The Idea was to create a 16x Relays Switching device with Potential-free contacts in mind, as you would find on a PLC or in an Switching Cabinet.
+Its size is as compact as i was able to design it with an Power-supply input that support different Voltage Levels depending on your needs.
+The TracoPower Component (PS1) is interchangeable in its product line so you can choose Supply Voltages ranging from 9V,12V,24V or up to 75V DC. 
+
 
 ![alt text](https://github.com/Steve-Teko/Diplomarbeit-2026/blob/main/RelaisExpanderPrintV1.0/RelaisExpanderPrintV1.0/RelaisExpanderPrintV1.0.png)
