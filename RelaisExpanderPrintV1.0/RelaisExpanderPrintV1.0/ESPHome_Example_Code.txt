@@ -1,0 +1,214 @@
+###################################I2C Setup#####################################################################
+i2c:
+  sda: GPIO6
+  scl: GPIO7
+  scan: true
+  frequency : 100kHz
+
+
+
+mcp23017:
+  - id: 'mcp23017_relay_expander'
+    address: 0x21
+
+###############################Relais Expander Print 1##########################################################
+
+# ==========================================
+# PORT B (Pins 0 - 7)
+# ==========================================
+
+  - platform: gpio
+    name: "MCP23017_Expander Pin B0"
+    icon: mdi:electric-switch
+    pin:
+      mcp23xxx: mcp23017_relay_expander
+      number: 0
+      mode:
+        output: true
+      inverted: false
+    web_server:
+      sorting_group_id: sorting_group_outputs_expander
+
+  - platform: gpio
+    name: "MCP23017_Expander Pin B1"
+    icon: mdi:electric-switch
+    pin:
+      mcp23xxx: mcp23017_relay_expander
+      number: 1
+      mode:
+        output: true
+      inverted: false
+    web_server:
+      sorting_group_id: sorting_group_outputs_expander
+
+  - platform: gpio
+    name: "MCP23017_Expander Pin B2"
+    icon: mdi:electric-switch
+    pin:
+      mcp23xxx: mcp23017_relay_expander
+      number: 2
+      mode:
+        output: true
+      inverted: false
+    web_server:
+      sorting_group_id: sorting_group_outputs_expander
+
+  - platform: gpio
+    name: "MCP23017_Expander Pin B3"
+    icon: mdi:electric-switch
+    pin:
+      mcp23xxx: mcp23017_relay_expander
+      number: 3
+      mode:
+        output: true
+      inverted: false
+    web_server:
+      sorting_group_id: sorting_group_outputs_expander
+
+  - platform: gpio
+    name: "MCP23017_Expander Pin B4"
+    icon: mdi:electric-switch
+    pin:
+      mcp23xxx: mcp23017_relay_expander
+      number: 4
+      mode:
+        output: true
+      inverted: false
+    web_server:
+      sorting_group_id: sorting_group_outputs_expander
+
+  - platform: gpio
+    name: "MCP23017_Expander Pin B5"
+    icon: mdi:electric-switch
+    pin:
+      mcp23xxx: mcp23017_relay_expander
+      number: 5
+      mode:
+        output: true
+      inverted: false
+    web_server:
+      sorting_group_id: sorting_group_outputs_expander
+
+  - platform: gpio
+    name: "MCP23017_Expander Pin B6"
+    icon: mdi:electric-switch
+    pin:
+      mcp23xxx: mcp23017_relay_expander
+      number: 6
+      mode:
+        output: true
+      inverted: false
+    web_server:
+      sorting_group_id: sorting_group_outputs_expander
+
+  - platform: gpio
+    name: "MCP23017_Expander Pin B7"
+    icon: mdi:electric-switch
+    pin:
+      mcp23xxx: mcp23017_relay_expander
+      number: 7
+      mode:
+        output: true
+      inverted: false
+    web_server:
+      sorting_group_id: sorting_group_outputs_expander
+
+# ==========================================
+# PORT A (Pins 8 - 15)
+# ==========================================
+
+  - platform: gpio
+    name: "MCP23017_Expander Pin A0"
+    icon: mdi:electric-switch
+    pin:
+      mcp23xxx: mcp23017_relay_expander
+      number: 8
+      mode:
+        output: true
+      inverted: false
+    web_server:
+      sorting_group_id: sorting_group_outputs_expander
+
+  - platform: gpio
+    name: "MCP23017_Expander Pin A1"
+    icon: mdi:electric-switch
+    pin:
+      mcp23xxx: mcp23017_relay_expander
+      number: 9
+      mode:
+        output: true
+      inverted: false
+    web_server:
+      sorting_group_id: sorting_group_outputs_expander
+
+  - platform: gpio
+    name: "MCP23017_Expander Pin A2"
+    icon: mdi:electric-switch
+    pin:
+      mcp23xxx: mcp23017_relay_expander
+      number: 10
+      mode:
+        output: true
+      inverted: false
+    web_server:
+      sorting_group_id: sorting_group_outputs_expander
+
+  - platform: gpio
+    name: "MCP23017_Expander Pin A3"
+    icon: mdi:electric-switch
+    pin:
+      mcp23xxx: mcp23017_relay_expander
+      number: 11
+      mode:
+        output: true
+      inverted: false
+    web_server:
+      sorting_group_id: sorting_group_outputs_expander
+
+  - platform: gpio
+    name: "MCP23017_Expander Pin A4"
+    icon: mdi:electric-switch
+    pin:
+      mcp23xxx: mcp23017_relay_expander
+      number: 12
+      mode:
+        output: true
+      inverted: false
+    web_server:
+      sorting_group_id: sorting_group_outputs_expander
+
+  - platform: gpio
+    name: "MCP23017_Expander Pin A5"
+    icon: mdi:electric-switch
+    pin:
+      mcp23xxx: mcp23017_relay_expander
+      number: 13
+      mode:
+        output: true
+      inverted: false
+    web_server:
+      sorting_group_id: sorting_group_outputs_expander
+
+  - platform: gpio
+    name: "MCP23017_Expander Pin A6"
+    icon: mdi:electric-switch
+    pin:
+      mcp23xxx: mcp23017_relay_expander
+      number: 14
+      mode:
+        output: true
+      inverted: false
+    web_server:
+      sorting_group_id: sorting_group_outputs_expander
+
+  - platform: gpio
+    name: "MCP23017_Expander Pin A7"
+    icon: mdi:electric-switch
+    pin:
+      mcp23xxx: mcp23017_relay_expander
+      number: 15
+      mode:
+        output: true
+      inverted: false
+    web_server:
+      sorting_group_id: sorting_group_outputs_expander
