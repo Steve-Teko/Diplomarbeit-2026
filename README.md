@@ -41,3 +41,8 @@ I will not be uploading the written thesis itself to this repository.
 **Disclaimer**
 I am responsible neither for the correct application of these files nor for any errors within them. Any damages caused by files in this repository are solely the responsibility of the user.
 The PCBs have not been certified or safety-tested by any official inspection body. When using them, all applicable engineering standards and safety codes must be strictly followed.
+
+
+
+What to expect:
+![alt text](https://github.com/Steve-Teko/Diplomarbeit-2026/blob/main/HauptprintV1/HauptprintV1/HauptprintV1.png)
