@@ -21,7 +21,7 @@ Ich bin weder fuer die korrekte Anwendung noch meine Fehler Verantwortlich, saem
 Die Leiterplatten sind von keinem Pruefunternehmen abgenommen oder auf ihre Sicherheit geprueft worden. Bei Verwendung sind alle Regeln der Technik zu beachten.
 
 
-##########################################################################################################################################################################################################################################
+##########################################################################################################
 
 Official repository for Steve's diploma thesis.
 
