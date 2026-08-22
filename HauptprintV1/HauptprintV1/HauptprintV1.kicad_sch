@@ -1,0 +1,156 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f2820f30-735f-412e-8cf4-d16375e208ec")
+	(paper "A4")
+	(title_block
+		(title "Open Source Aktor / Sensor Prints fürs Smarthome")
+		(rev "1.0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 25.4 67.31)
+		(size 72.39 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0b310267-27d7-4ec0-980d-a918b10c74cd")
+		(property "Sheetname" "More IO"
+			(at 25.4 66.5984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IOMUX.kicad_sch"
+			(at 25.4 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HauptprintV1"
+				(path "/f2820f30-735f-412e-8cf4-d16375e208ec"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 29.21)
+		(size 72.39 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9f2b915b-7770-4c60-ad6a-ecd9dc4bc264")
+		(property "Sheetname" "Power"
+			(at 25.4 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB-Connector.kicad_sch"
+			(at 25.4 55.1946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HauptprintV1"
+				(path "/f2820f30-735f-412e-8cf4-d16375e208ec"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 29.21)
+		(size 78.74 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ce5e8d66-5207-4d88-8dc2-aac2f12acefd")
+		(property "Sheetname" "ESP32-C6 Pinout"
+			(at 111.76 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32-C6 Pinout.kicad_sch"
+			(at 111.76 55.1946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HauptprintV1"
+				(path "/f2820f30-735f-412e-8cf4-d16375e208ec"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
