@@ -46,3 +46,5 @@ The PCBs have not been certified or safety-tested by any official inspection bod
 
 What to expect:
 ![alt text](https://github.com/Steve-Teko/Diplomarbeit-2026/blob/main/HauptprintV1/HauptprintV1/HauptprintV1.png)
+
+![alt text](https://github.com/Steve-Teko/Diplomarbeit-2026/blob/main/RelaisExpanderPrintV1.0/RelaisExpander Print V1.0/RelaisExpander Print V1.0.png)
