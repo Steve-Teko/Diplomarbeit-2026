@@ -8940,7 +8940,7 @@
 		(descr "Tantalum Capacitor SMD AVX-F (6032-20 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf)")
 		(tags "capacitor tantalum")
 		(property "Reference" "C1"
-			(at 5 0 180)
+			(at 0 -3 180)
 			(layer "F.SilkS")
 			(uuid "ef193cd9-a41f-4524-9bd2-cebc31f84584")
 			(effects
@@ -13334,7 +13334,7 @@
 		(descr "Tantalum Capacitor SMD AVX-F (6032-20 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf)")
 		(tags "capacitor tantalum")
 		(property "Reference" "C3"
-			(at 0 -2.55 0)
+			(at 0 2.5 0)
 			(layer "F.SilkS")
 			(uuid "5ebe7e7d-0bae-4f72-a09e-8cd22c554bd3")
 			(effects
@@ -17085,7 +17085,7 @@
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D12"
-			(at 3.08 -2.47 0)
+			(at 4.58 -2.47 0)
 			(layer "F.SilkS")
 			(uuid "3d9d0a5b-c650-49be-bda3-e2ebdec267e7")
 			(effects
@@ -21132,7 +21132,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=1.50mm, diameter=4mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 1.50mm diameter 4mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C8"
-			(at 0.75 -3.25 0)
+			(at 4 0 0)
 			(layer "F.SilkS")
 			(uuid "cf643351-1532-4dcb-81a7-807cdc473802")
 			(effects
@@ -26230,7 +26230,7 @@
 		(descr "Terminal Block Phoenix MPT-0,5-2-2.54, 2 pins, pitch 2.54mm, size 5.54x6.2mm, drill diameter 1.1mm, pad diameter 2.2mm, http://www.mouser.com/ds/2/324/ItemDetail_1725656-920552.pdf")
 		(tags "THT Terminal Block Phoenix MPT-0,5-2-2.54 pitch 2.54mm size 5.54x6.2mm drill 1.1mm pad 2.2mm")
 		(property "Reference" "J25"
-			(at 1.27 -4.22 0)
+			(at -3 -2.5 0)
 			(layer "F.SilkS")
 			(uuid "2f59c360-5533-486e-a0e8-990c3e273545")
 			(effects
@@ -29097,7 +29097,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "SCK"
+	(gr_text "SDA"
 		(at 82.003548 84.370078 90)
 		(layer "F.SilkS")
 		(uuid "3c5b9a8c-eb99-402a-b745-654445f7a37c")
@@ -29124,7 +29124,7 @@
 		)
 	)
 	(gr_text "GND\nAX\n3.3V"
-		(at 171.5 89 0)
+		(at 171.5 88.5 0)
 		(layer "F.SilkS")
 		(uuid "294016e7-d04d-410b-853b-6684d4b6f331")
 		(effects
