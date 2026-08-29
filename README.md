@@ -1,7 +1,7 @@
 # Diplomarbeit-2026
 Offizielle Repository fuer die Diplomarbeit von Steve
 
-There will be an introduction in German before I switch to Englisch and Explaining the Projekt.
+There will be an introduction in German before I switch to englisch and explaining the project.
 
 **Idee:**
 Die Idee ist es Leiterplatten zu designen, die in einem neuen oder bestehenden SmartHome mit einfachen Schritten integrierbar ist.
@@ -27,8 +27,8 @@ Die Leiterplatten sind von keinem Pruefunternehmen abgenommen oder auf ihre Sich
 Official repository for Steve's diploma thesis.
 
 **Idea**
-The concept is to design printed circuit boards (PCBs) that can be easily integrated into a new or existing smart home system.
-The goal is to create simple yet feature-rich PCBs—such as the actuator board—that can connect to existing control systems via I2C.
+The concept is to design printed circuit boards (PCB's) that can be easily integrated into a new or existing SmartHome system.
+The goal is to create simple yet feature-rich PCB's such as the actuator board that can connect to existing control systems via I2C or UART.
 
 **My Qualifications**
 I am a trained automation technician and have been interested in many tech-related topics since childhood. At school, I was always less interested in art and languages compared to math, physics, and practical crafts. At 23, I made the decision to further my education—a choice I still do not regret today. The path to this diploma thesis was rocky and hard, but it was also a lot of fun. I designed a printed circuit board (PCB) once during my apprenticeship with my mentor at the time, but never repeated the process after that. The software back then was called EAGLE.
