@@ -33,7 +33,7 @@ The goal is to create simple yet feature-rich PCBs—such as the actuator board�
 **My Qualifications**
 I am a trained automation technician and have been interested in many tech-related topics since childhood. At school, I was always less interested in art and languages compared to math, physics, and practical crafts. At 23, I made the decision to further my education—a choice I still do not regret today. The path to this diploma thesis was rocky and hard, but it was also a lot of fun. I designed a printed circuit board (PCB) once during my apprenticeship with my mentor at the time, but never repeated the process after that. The software back then was called EAGLE.
 
-**Implementation**
+**Workflow**
 In addition to this repository, I am writing my written thesis in parallel. The purpose of this repo is to store the necessary project files—such as KiCad files, Gerber files, enclosure models, or code lines—for future reference.
 I will not be uploading the written thesis itself to this repository.
 
