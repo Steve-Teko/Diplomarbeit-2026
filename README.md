@@ -39,13 +39,15 @@ I will not be uploading the written thesis itself to this repository. During the
 
 **Disclaimer**
 I am not responsible for the correct application of these files, nor for any errors within them. Any damages caused by files in this repository are solely the responsibility of the user.
-The PCBs have not been certified or safety-tested by any official inspection body. When using them, all applicable engineering standards and safety codes must be strictly followed.
+The PCB's have not been certified or safety-tested by any official inspection body. When using them, all applicable engineering standards and safety codes must be strictly followed.
+I'm still learning so expect some major flaws along the way.
 
 **What to expect:**
 You will be able to order the following PCB from your favorite PCB Manufacturer, the files and a basic Enclosure designed in FreeCAD is included in the Folders.
+Everything provided is free and Open Source so you won't have to pay a dime for some program.
 
 **Hauptprint aka the Brain**
-It's purpose is being able to be integrated into your existing SmartHome while offering a wide range off preconfigured In/Outputs.
+It's purpose is being able to be integrated into your existing SmartHome while offering a wide range off per-configured In/Outputs.
 There are optional Components which you wont have to solder onto for it to work.
 The ESP32 C6 Wroom1 supports Thread/Zigbee, Wi-Fi 6 (2.4gHz only!), Bluetooth 5.0, UART, I2C and I2S, which should be plenty for your needs.
 
@@ -63,9 +65,13 @@ The TracoPower Component (PS1) is interchangeable in its product line so you can
 
 **Programming**
 The Project is designed to be used with ESP-Home.
-Configuration is up to you, the basis is an ESP32 C6 Wroom1 with I2C lines pre routed and battery connectors pre installed with a Powermux for dual Power Supply input simultaniousely.
+Configuration is up to you, the basis is an ESP32 C6 Wroom1 with I2C lines pre-routed and battery connectors pre-installed with a Powermux for dual Power Supply input simultaneously.
 
 There is an Example Code in the RelaisExpander PCB Folder for all Relay. Which helps you to understand how to use it in your Project.
+
+
+**Your Contribution**
+If you may want to offer some advice or if you like the project i would appreciate it very much. Some may end up in my thesis.
 
 **IMPORTANT INFORMATION**
 This Repo will be Closed on the 28th of October, there will be no new Update on here. I might Fork it on my non School Github Page if anyone is interested.
