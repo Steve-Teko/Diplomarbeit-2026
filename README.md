@@ -47,7 +47,7 @@ You will be able to order the following PCB from your favorite PCB Manufacturer,
 Everything provided is free and Open Source so you won't have to pay a dime for some program.
 
 **Hauptprint aka the Brain**
-It's purpose is being able to be integrated into your existing SmartHome while offering a wide range off per-configured In/Outputs.
+It's purpose is being able to be integrated into your existing SmartHome while offering a wide range off pre-configured In/Outputs.
 There are optional Components which you wont have to solder onto for it to work.
 The ESP32 C6 Wroom1 supports Thread/Zigbee, Wi-Fi 6 (2.4gHz only!), Bluetooth 5.0, UART, I2C and I2S, which should be plenty for your needs.
 
