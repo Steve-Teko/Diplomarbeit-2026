@@ -16964,6 +16964,45 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "0\n\n1"
+		(at 177.657986 73.759475 0)
+		(layer "F.SilkS")
+		(uuid "4edb3f75-dc0e-42bc-9707-4c085b2f9fbb")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "0\n\n1"
+		(at 181.661486 73.714152 0)
+		(layer "F.SilkS")
+		(uuid "afa2132d-203d-49ed-8df0-4c6dd4bb471b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "0\n\n1"
+		(at 186.25 73.75 0)
+		(layer "F.SilkS")
+		(uuid "01fe45e5-a6e9-44ac-a342-340b5403e08f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(barcode
 		(at 123.875 102.5 0)
 		(layer "F.SilkS")
