@@ -2088,7 +2088,7 @@
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D6"
-			(at 5.58 -1.5 0)
+			(at 2.463943 -2.337779 0)
 			(layer "F.SilkS")
 			(uuid "a5a4f886-d55c-4eed-b6bb-a5273820c7a0")
 			(effects
@@ -2315,7 +2315,7 @@
 			(uuid "8ef5335b-7232-46d5-8d40-7c9fc823c341")
 		)
 		(fp_text user "K"
-			(at 0 -2.1 0)
+			(at -0.67 -2 0)
 			(layer "F.SilkS")
 			(uuid "34b574e7-ae82-44ea-b5e9-d09afe2b0ceb")
 			(effects
@@ -2692,7 +2692,7 @@
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D13"
-			(at 5.08 -1.6 0)
+			(at 4.869825 2.52132 0)
 			(layer "F.SilkS")
 			(uuid "8b7dbaa3-210b-4ed3-b188-58937443f930")
 			(effects
@@ -8199,7 +8199,7 @@
 			(uuid "9084581c-b91f-4312-81b1-5f3f7a3e7ca0")
 		)
 		(fp_text user "K"
-			(at 0 -2.1 0)
+			(at -0.92 -2 0)
 			(layer "F.SilkS")
 			(uuid "670e46e2-2be8-433c-b0a8-1a08296c2b79")
 			(effects
@@ -17312,7 +17312,7 @@
 			(uuid "be4cd57d-797e-46e9-b9e8-994d94db82c6")
 		)
 		(fp_text user "K"
-			(at 0 -2.1 0)
+			(at -1.42 -2.25 0)
 			(layer "F.SilkS")
 			(uuid "77540a63-93a4-4d81-96c0-c036c77fcc4b")
 			(effects
@@ -18705,7 +18705,7 @@
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D1"
-			(at 8.58 -1.5 0)
+			(at 3.58 2.25 0)
 			(layer "F.SilkS")
 			(uuid "4c832521-6f21-4d63-aa1b-784f9df7c669")
 			(effects
@@ -28161,7 +28161,7 @@
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D7"
-			(at 3.5 -1.5 0)
+			(at 3 -2.25 0)
 			(layer "F.SilkS")
 			(uuid "df56af0b-855c-447f-b479-33c2e7121ac8")
 			(effects
@@ -29135,7 +29135,43 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "I2C Address 0x20-0x27 \n0x20 = A0-A2 000:\nA0 = Bit 1 0x21 = A0-A2 001\nA1 = Bit 2 0x22 = A0-A2 010\nA2 = Bit 3 0x23 = A0-A2 011\n"
+	(gr_text "0\n\n\n1"
+		(at 169.973027 97.459949 0)
+		(layer "F.SilkS")
+		(uuid "af250b4e-cc59-43b5-98be-5be3a183fd9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "0\n\n\n1"
+		(at 173.997061 97.459949 0)
+		(layer "F.SilkS")
+		(uuid "8e09746e-a52b-4886-bf84-85312a32cb7a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "0\n\n\n1"
+		(at 177.893059 97.514822 0)
+		(layer "F.SilkS")
+		(uuid "9a8a1a4c-02c2-4b6b-ba1b-f7eb0f90b9a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "I2C Address 0x20-0x27 \n0x20 = A0-A2 000:\nA0 = Bit 1 | 0x21 = A0-A2 001\nA1 = Bit 2 | 0x22 = A0-A2 010\nA2 = Bit 3 | 0x23 = A0-A2 011\n"
 		(at 128 88 0)
 		(layer "F.SilkS")
 		(uuid "47d2315e-a006-4689-a241-47a89560f050")

@@ -1902,9 +1902,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky_AAK"
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0)
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1922,7 +1925,7 @@
 					)
 				)
 			)
-			(property "Value" "D_Schottky_AAK"
+			(property "Value" "D_Schottky"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1954,7 +1957,7 @@
 					)
 				)
 			)
-			(property "Description" "Schottky diode, anode on pins 1 and 2"
+			(property "Description" "Schottky diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1965,7 +1968,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "diode Schottky SCHDPAK"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1987,7 +1990,7 @@
 					)
 				)
 			)
-			(symbol "D_Schottky_AAK_0_1"
+			(symbol "D_Schottky_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -2012,20 +2015,9 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.54 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
-						(xy 3.81 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy -1.27 0)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -2036,11 +2028,11 @@
 					)
 				)
 			)
-			(symbol "D_Schottky_AAK_1_1"
+			(symbol "D_Schottky_1_1"
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "A"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2056,7 +2048,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -2066,24 +2058,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3961,12 +3935,6 @@
 		(uuid "804df07c-17ca-4cc1-84a8-ded291db53cf")
 	)
 	(junction
-		(at 224.79 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "814d902c-78ec-430b-8fb2-28fcd62772b8")
-	)
-	(junction
 		(at 83.82 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3979,6 +3947,12 @@
 		(uuid "88ce2c9b-066e-4c3f-8fe9-ec63eba0f270")
 	)
 	(junction
+		(at 226.06 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e86e03f-c643-4ebf-994d-5970071e5ab0")
+	)
+	(junction
 		(at 83.82 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3989,12 +3963,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4c2eafb-ccf1-4532-b591-ba29c1935622")
-	)
-	(junction
-		(at 226.06 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d69f4b1f-6455-4fb3-be11-86d5d5db81ea")
 	)
 	(junction
 		(at 203.2 110.49)
@@ -4044,16 +4012,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 119.38) (xy 226.06 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0450fffb-dc42-4d35-baab-5b91499c0217")
-	)
-	(wire
-		(pts
 			(xy 105.41 106.68) (xy 83.82 106.68)
 		)
 		(stroke
@@ -4084,6 +4042,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 118.11) (xy 226.06 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f66e1af-a2af-41f4-adf0-5114e1669075")
+	)
+	(wire
+		(pts
 			(xy 184.15 110.49) (xy 176.53 110.49)
 		)
 		(stroke
@@ -4101,16 +4069,6 @@
 			(type default)
 		)
 		(uuid "1835a307-682f-457f-a049-7834b635c8f2")
-	)
-	(wire
-		(pts
-			(xy 224.79 110.49) (xy 240.03 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ab3dfbe-14c1-468c-a1e7-e5a5d602cd5f")
 	)
 	(wire
 		(pts
@@ -4474,6 +4432,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 110.49) (xy 240.03 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a34f6edd-3bb5-41dc-9c26-458edfe358d8")
+	)
+	(wire
+		(pts
 			(xy 87.63 54.61) (xy 87.63 57.15)
 		)
 		(stroke
@@ -4604,7 +4572,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 110.49) (xy 224.79 110.49)
+			(xy 213.36 110.49) (xy 226.06 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4671,16 +4639,6 @@
 			(type default)
 		)
 		(uuid "f62301fc-d7ab-441f-9ac1-d5381bd61dc2")
-	)
-	(wire
-		(pts
-			(xy 226.06 119.38) (xy 227.33 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc048e37-55dc-4224-b775-51ea5e6a6578")
 	)
 	(wire
 		(pts
@@ -5361,6 +5319,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 226.06 114.3 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "074a0a16-cb87-4ce8-bcbe-676ddff6cf59")
+		(property "Reference" "D3"
+			(at 228.6 112.7124 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.9V"
+			(at 228.6 115.2524 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 226.06 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 226.06 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "1SMB5915BT3G"
+			(at 226.06 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d53bac1-907b-4ff5-9ace-eb1e92fe10de")
+		)
+		(pin "2"
+			(uuid "27b29a09-b63d-4fb4-9e3d-68ab72265467")
+		)
+		(instances
+			(project "HauptprintV1"
+				(path "/f2820f30-735f-412e-8cf4-d16375e208ec/9f2b915b-7770-4c60-ad6a-ecd9dc4bc264"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 167.64 142.24 0)
 		(unit 1)
@@ -5953,102 +6004,6 @@
 			(project "HauptprintV1"
 				(path "/f2820f30-735f-412e-8cf4-d16375e208ec/9f2b915b-7770-4c60-ad6a-ecd9dc4bc264"
 					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky_AAK")
-		(at 224.79 114.3 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d47ed23-8ac4-48bf-917b-dbd7d8be7182")
-		(property "Reference" "D3"
-			(at 228.6 113.9189 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.9V"
-			(at 228.6 116.4589 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
-			(at 224.79 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/bzx84b2v4.pdf"
-			(at 224.79 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Schottky diode, anode on pins 1 and 2"
-			(at 224.79 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Product Number" "1SMB5915BT3G"
-			(at 224.79 114.3 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "d1a73839-d6f7-4db9-b603-84e52ae92243")
-		)
-		(pin "2"
-			(uuid "9f9bd8e9-41af-4c36-91b0-ecd74bad8d0c")
-		)
-		(pin "1"
-			(uuid "43ad1ea5-505a-4fce-a5cd-4980d8398a36")
-		)
-		(instances
-			(project "HauptprintV1"
-				(path "/f2820f30-735f-412e-8cf4-d16375e208ec/9f2b915b-7770-4c60-ad6a-ecd9dc4bc264"
-					(reference "D3")
 					(unit 1)
 				)
 			)

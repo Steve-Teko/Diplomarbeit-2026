@@ -70,7 +70,100 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|121250000|103857759|9ec7893a-b82a-4485-a0cb-a12f7fcf8671|d6cbea24-1a65-4f03-bebd-f43b682a793f",
+          ""
+        ],
+        [
+          "clearance|121974138|102000000|5b896a4a-6fc0-4a05-9faa-aecdf8346adf|9ec7893a-b82a-4485-a0cb-a12f7fcf8671",
+          ""
+        ],
+        [
+          "clearance|123855272|106126108|3a18f655-aa20-4066-8e55-e074ab9c10d9|9ec7893a-b82a-4485-a0cb-a12f7fcf8671",
+          ""
+        ],
+        [
+          "clearance|124636477|100418103|7ced7be4-f653-4283-968b-00f54eaad9dd|9ec7893a-b82a-4485-a0cb-a12f7fcf8671",
+          ""
+        ],
+        [
+          "clearance|125232759|99875000|9ec7893a-b82a-4485-a0cb-a12f7fcf8671|d5842c39-8df9-430f-a8a2-755fcc73cf45",
+          ""
+        ],
+        [
+          "clearance|126500000|102156253|9ec7893a-b82a-4485-a0cb-a12f7fcf8671|bf19d436-a800-4628-b5da-2e06d6d0a1b1",
+          ""
+        ],
+        [
+          "clearance|126500000|104400862|9ec7893a-b82a-4485-a0cb-a12f7fcf8671|c97bdfb0-e25b-41de-8959-924721cc7fc5",
+          ""
+        ],
+        [
+          "clearance|128720000|69175000|2f952819-04f9-41e1-91f8-2af6ca1eb9e0|924803c2-8d13-4c90-8d9b-c9db030c5666",
+          ""
+        ],
+        [
+          "clearance|128720000|70525000|a6770478-5bf7-4357-8d48-6fdd41ad379b|974f94d4-ce19-4fa7-99f4-e540b104d2bb",
+          ""
+        ],
+        [
+          "clearance|129145000|70525000|633ede19-f69e-4395-9efe-b747a9c778ac|a3058f15-dbc7-4622-9eec-cc1518272521",
+          ""
+        ],
+        [
+          "clearance|129145000|70525000|633ede19-f69e-4395-9efe-b747a9c778ac|dcd09e1c-d611-463e-8dfd-64dab8f51e8a",
+          ""
+        ],
+        [
+          "clearance|129570000|69175000|924803c2-8d13-4c90-8d9b-c9db030c5666|148fa01a-f050-49a5-b7f3-5e7e7b0e849f",
+          ""
+        ],
+        [
+          "clearance|129570000|70525000|633ede19-f69e-4395-9efe-b747a9c778ac|a6770478-5bf7-4357-8d48-6fdd41ad379b",
+          ""
+        ],
+        [
+          "clearance|130420000|69175000|148fa01a-f050-49a5-b7f3-5e7e7b0e849f|f28c1737-9c73-4cb7-a790-b53f69c64973",
+          ""
+        ],
+        [
+          "clearance|130420000|70525000|9648b44e-7146-4e35-90a1-38c58cfe9bb8|633ede19-f69e-4395-9efe-b747a9c778ac",
+          ""
+        ],
+        [
+          "clearance|131270000|69175000|f28c1737-9c73-4cb7-a790-b53f69c64973|a8a4e10c-1a76-4268-8ae1-01cb75dcc16d",
+          ""
+        ],
+        [
+          "clearance|131270000|70525000|a41f0a1d-a5bb-4821-8bdf-a87e79ab8af9|9648b44e-7146-4e35-90a1-38c58cfe9bb8",
+          ""
+        ],
+        [
+          "clearance|132120000|69175000|a8a4e10c-1a76-4268-8ae1-01cb75dcc16d|a39dd7b1-a18a-4adf-be4b-db33e3074b2e",
+          ""
+        ],
+        [
+          "clearance|132120000|70525000|72807091-1b9d-44a2-aca1-c8473e6fc0e4|a41f0a1d-a5bb-4821-8bdf-a87e79ab8af9",
+          ""
+        ],
+        [
+          "clearance|132970000|69175000|a39dd7b1-a18a-4adf-be4b-db33e3074b2e|73ca6873-1a29-41b3-a5ae-816e3c685ca5",
+          ""
+        ],
+        [
+          "clearance|132970000|70525000|31ef3c9c-d2a2-4013-bc9a-8b15a6feed1d|72807091-1b9d-44a2-aca1-c8473e6fc0e4",
+          ""
+        ],
+        [
+          "clearance|133820000|69175000|73ca6873-1a29-41b3-a5ae-816e3c685ca5|75d60d84-7988-447d-99c3-2270e5673739",
+          ""
+        ],
+        [
+          "clearance|133820000|70525000|e479e5e4-2457-41d1-9b1d-a31604669ab9|31ef3c9c-d2a2-4013-bc9a-8b15a6feed1d",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -524,7 +617,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../Gerber Files/",
       "specctra_dsn": "",
       "step": "../../../../../../../Desktop/HauptprintV1.stl",
       "vrml": ""
@@ -649,7 +742,7 @@
         "uuid": "f2820f30-735f-412e-8cf4-d16375e208ec"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D4",
     "variants": []
   },
   "sheets": [
