@@ -1,6 +1,15 @@
 # Diplomarbeit-2026
 Offizielle Repository fuer die Diplomarbeit von Steve
 
+
+
+
+
+#!THIS PROJECT WON'T BE FURTHER DEVELOPED!
+
+
+
+
 There will be an introduction in German before I switch to englisch and explaining the project.
 
 **Idee:**
