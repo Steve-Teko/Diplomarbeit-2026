@@ -5,7 +5,7 @@ Offizielle Repository fuer die Diplomarbeit von Steve
 
 
 
-#!THIS PROJECT WON'T BE FURTHER DEVELOPED!
+**!THIS PROJECT WON'T BE FURTHER DEVELOPED!**
 
 
 
